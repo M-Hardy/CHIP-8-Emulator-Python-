@@ -36,7 +36,7 @@ class cpu (pyglet.window.Window):
     delay_timer = 0                    #timer register 1: delays
     sound_timer = 0                    #timer register 2: sound
     should_draw = False
-    pc = 0                             #16-bit program counter 
+    pc = 0                              #16-bit program counter 
     vx = 0
     vy = 0
     pixel = pyglet.image.load('pixel.png')
